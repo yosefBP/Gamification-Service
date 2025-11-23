@@ -1,0 +1,27 @@
+{
+  "name": "gamification-service",
+  "version": "1.0.0",
+  "description": "Este servicio será completamente independiente, responsable de la lógica de calificaciones, promedios, y promoción de rangos. Debe usar una clave de seguridad única para autenticarse con el API Gateway.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosefBP/Gamification-Service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yosefBP/Gamification-Service/issues"
+  },
+  "homepage": "https://github.com/yosefBP/Gamification-Service#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^9.0.0"
+  }
+}
